@@ -122,14 +122,20 @@ renv::init
 #
 #
 # configure git:
-# install.packages("usethis")
-# library(usethis)
+ install.packages("usethis")
+ library(usethis)
 #
 #
 use_git()
 # accept the commit and the restart
 #
+create_github_token()
+#say yes
+library(gitcreds)
+gitcreds_set()
+#and enter the generated token
 #
+use_github()
 #
 #
 #

@@ -126,9 +126,8 @@ renv::init
 # library(usethis)
 #
 #
-#
-#
-#
+use_git()
+# accept the commit and the restart
 #
 #
 #
